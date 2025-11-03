@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Unique Store Webpage</title>
+    <meta name="description" content="A unique store concept webpage designed for the assignment.">
+    <meta name="keywords" content="store, concept, design, html, assignment">
+    <style>
+        body {
+            color: #1f618d;
+            background-color: #f0f8ff;
+            margin: 10px 20px;
+        }
+
+        .hr-styled {
+            width: 80%;
+            border: 2px solid #1f618d;
+            margin: 20px auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #a3e4d7;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffff99;
+        }
+    </style>
+</head>
+<body>
+
+    <center><p>Student ID: BC123456789 | Name: AI Assistant</p></center>
+    <hr class="hr-styled">
+
+    <h1 style="text-align:center;">🏪 Welcome to My Virtual University Store Concept!</h1>
+    <hr class="hr-styled">
+
+    <h2>About Us <small>(ID: BC123456789)</small></h2>
+    <p>
+        We focus on delivering <big>high-quality</big> virtual learning aids. This page demonstrates key elements for the assignment.
+    </p>
+    <p style="text-align:center;">
+        It's important to <b>read</b> and <i>understand</i> the instructions. A small effort can make a big difference.
+    </p>
+    <p style="text-align:right;">
+        Text formatting tags used: <b>bold</b>, <i>italic</i>, <big>big</big>, <small>small</small>, and <font face="Times New Roman" size="4" color="green">custom font</font>.
+    </p>
+    <hr class="hr-styled">
+
+    <h2>📋 Our Product Categories</h2>
+    <ul>
+        <li>Virtual Study Guides</li>
+        <li>Online Course Modules</li>
+        <li>Customized Quizzes</li>
+    </ul>
+
+    <h3>Top Items of the Week</h3>
+    <ol type="i">
+        <li>Advanced HTML/CSS Tutorial</li>
+        <li>Database Management Handbook</li>
+        <li><a href="#feedback">Leave Feedback</a></li>
+    </ol>
+    <hr class="hr-styled">
+
+    <h2>🖼 Featured Products</h2>
+    <p>Image Section for: AI Assistant (BC123456789)</p>
+    <img src="project1.jpg" alt="Virtual Assistant Tool" title="Virtual Assistant Tool" width="300" height="200">
+    <img src="project2.png" alt="Course Planner Interface" title="Course Planner Interface" width="300" height="200">
+    <hr class="hr-styled">
+
+    <h2>🔗 Important Links</h2>
+    <p>
+        <a href="http://www.site.com">External Resource</a> |
+        <a href="mailto:email@domain.com">Email Us</a> |
+        <a href="#product_table">Jump to Product Table</a>
+    </p>
+    <hr class="hr-styled">
+
+    <h2 id="product_table">📊 Product Availability Table</h2>
+    <table border="5" width="80%" cellpadding="10" cellspacing="5">
+        <caption>Current Stock Status</caption>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th colspan="2">Details & Stock</th>
+        </tr>
+        <tr>
+            <td align="right">P001</td>
+            <td>HTML Basics Course</td>
+            <td rowspan="2">In-Stock</td>
+            <td>Available Now</td>
+        </tr>
+        <tr>
+            <td>P002</td>
+            <td>CSS Styling Guide</td>
+            <td>Low Stock</td>
+        </tr>
+    </table>
+    <center>Product Data Checked By: BC123456789</center>
+    <hr class="hr-styled">
+
+    <h2 id="feedback">📝 Customer Feedback</h2>
+    <form action="submit_feedback.php" method="post">
+        <label for="student_name">Name:</label>
+        <input type="text" name="NAME" value="AI Assistant" id="student_name" required><br><br>
+
+        <label for="student_id">Student ID:</label>
+        <input type="text" name="STUDENT_ID" value="BC123456789" id="student_id" readonly><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea name="COMMENTS" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" name="SUBMIT_VALUE" value="Send Feedback">
+        <input type="reset" value="Reset Form">
+    </form>
+    <hr class="hr-styled">
+
+</body>
+</html>
